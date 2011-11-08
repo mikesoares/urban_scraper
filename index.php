@@ -7,7 +7,6 @@ require_once 'includes/UrbanScraper.class.php';
 // which letters do we want to check
 $letters = 'abcdefghijklmnopqrstuvwxyz';
 $letterArr = preg_split('//', $letters, -1, PREG_SPLIT_NO_EMPTY);
-$allWords = array();
 
 // initialize some arrays
 foreach ($letterArr as $char) {
